@@ -1,0 +1,42 @@
+
+
+/*Aprendendo a centralizar uma imagem*/
+body{
+  
+    background-image: url('no momento nada');
+  
+    background-repeat: no-repeat; /*faz que a imagem não se repita*/    
+   
+    background-position:  top center; /*a imagem vai ficar no top bem no centro da pagina/tela*/
+   
+    background-attachment: fixed; 
+    /*fixed= fica completamente atras da pagina, consigo colocar textos em cima dela etc */
+     /*scroll= após você rolar a pagina a imagem vai junto*/
+  
+     background-size: cover;/*Ele força a imagem a esticar para preencher toda a largura e altura, sem deixar espaços em branco.*/
+    
+     height: 200px;
+    
+     width: 10vh;
+
+}
+
+/* aprendendo a utilizar em qualquer teg*/ 
+
+p{
+     background-image: url('https://tse4.mm.bing.net/th/id/OIP.nm7gNMOlCyhxP-jJy1g91QHaEo?rs=1&pid=ImgDetMain&o=7&rm=3'); /*nossa imagem*/  
+
+     background-repeat: no-repeat; /*faz que a imagem não se repita*/    
+
+     background-attachment:  scroll; /*scroll= após você rolar a pagina a imagem vai junto*/
+    
+     background-position: left center; /*imagem para esquerda, no centro dela*/
+
+     background-size: cover; /*Ele força a imagem a esticar para preencher toda a largura e altura, sem deixar espaços em branco.*/
+     
+     width: 450px;
+     
+     height: 200px;
+     
+     border-radius: 10px 30px; /* serve para arredondar os cantos de qualquer elemento (botões, imagens, divs). */ /*podemos fazer ciculos etc*/
+}

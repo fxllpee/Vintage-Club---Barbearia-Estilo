@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-bar {
+    background-color: #121212;
+    padding: 10px;
+    position: static;
+    top: 0;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    /*alinha os items horizoltamente / aliig-items alinha verticalmente*/
+    gap: 50px;
+    list-style: none;
+    padding: 0
+}
+
+a {
+    color: #E0E0E0;
+    text-decoration: none;
+    font-weight: 700;
+    /*define o peso da fonte*/
+}
+
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+   rgba(0, 0, 0, 0.4)), url('img/a-photograph-taken-from-inside-a-vintage_9bZhcNSLTSq_h_qiwIxCZA_DRfaa4YcSye9aYbhhuHprQ.jpeg');
+    color: #E0E0E0;
+    min-height: 100vh;
+    padding: 50px 90px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 250px;
+}
+
+h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.header p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.header button {
+background-color: #A0522D; /* Cor Couro da Paleta 2 */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+     
+   
+}
+.sobre{
+     
+}
